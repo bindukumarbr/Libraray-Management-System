@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #bae8e8;
+    padding: 10px;
+}
+
+
+.nav_Links a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 17px;
+    color: black;
+}
+
+.nav_Links a:hover {
+    background-color: #e3f6f5;
+}

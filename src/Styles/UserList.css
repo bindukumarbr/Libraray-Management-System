@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.userData {
+    background-color: darkgray;
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.userData h3,
+.userData h4 {
+    padding: 5px;
+}
+
+#btn0 {
+    margin-top: 10px;
+    background-color: rgb(151, 57, 198);
+    padding: 5px 20px;
+    color: white;
+    border-radius: 10px;
+}

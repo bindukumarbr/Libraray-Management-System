@@ -1,0 +1,45 @@
+
+.loginType h1 {
+    padding-top: 50px;
+}
+
+.coverPage {
+    text-align: center;
+}
+
+.coverPage {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-image: url('https://thumbs.dreamstime.com/b/best-books-home-library-background-read-vintage-row-college-table-publishing-pile-old-lie-concept-vacation-161662282.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.landingPage {
+    margin: 200px;
+
+}
+
+.loginType a {
+    margin: 10px;
+    background-color: rgb(66, 66, 215);
+    color: white;
+    font-size: 20PX;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.loginType {
+    background-color: rgb(207, 234, 225);
+    height: 250px;
+    width: 500px;
+    border-radius: 20px;
+
+}
+
+#page {
+    margin-top: 75px;
+}

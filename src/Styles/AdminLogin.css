@@ -1,0 +1,36 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form h2 {
+    padding-top: 20px;
+}
+
+.adminLogin {
+    background-color: lightgrey;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    top: 30%;
+    left: 36%;
+    /* left: 300px; */
+    text-align: center;
+}
+
+/* .formInput input {
+    margin: 10px;
+    padding: 5px;
+    width: 300px;
+} */
+
+.formInput input:focus {
+    outline: none;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 5px 50px;
+    background-color: green;
+    color: white;
+}
