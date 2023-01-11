@@ -2,12 +2,12 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.form h2 {
+.form001 h2 {
     padding-bottom: 30px;
 }
 
 .userLogin {
-    background-color: lightgrey;
+    background-color: rgb(224, 248, 236);
     width: 400px;
     height: 300px;
     border-radius: 10px;

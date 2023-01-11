@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import { useNavigate } from "react-router-dom";
 
-
+import "../Styles/AddBooks.css"
 
 
 
@@ -33,12 +33,12 @@ const AddBooks = () => {
 
         //posting to the server
 
-        fetch('http://localhost:4000/books', 
-        {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(bookData)
-        })
+        fetch('http://localhost:4000/books',
+            {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(bookData)
+            })
 
         alert(`Book has been added`)
 
@@ -50,12 +50,11 @@ const AddBooks = () => {
 
 
     return (
-        <div>
-            <h1>Add a Book</h1>
-
+        <div className="parent000">
             <div className="form">
-
                 <form action="" onSubmit={handleSubmit}>
+
+                    <h1>Add Books</h1>
 
                     <div className="title"><input type="text" placeholder="Title of the Book" required value={title} onChange={(e) => setTitle(e.target.value)} /></div>
 
@@ -65,13 +64,19 @@ const AddBooks = () => {
 
                     <div className="pageCount"><input type="number" placeholder="No of Pages" required value={pageCount} onChange={(e) => setPageCount(e.target.value)} /></div>
 
-                    <div className="shortDescription"><textarea name="shortDescription" id="sD" cols="30" rows="10" required value={shortDescription} onChange={(e) => setShortDescription(e.target.value)}></textarea></div>
+                    <div className="description">
+                        <div className="shortDescription">
+                            <label htmlFor="longDescription">Short Description</label>
+                            <textarea name="shortDescription" cols="30" rows="10" required value={shortDescription} onChange={(e) => setShortDescription(e.target.value)}>short Description</textarea></div>
 
-                    <div className="longDescription"><textarea name="longDescription" id="lD" cols="30" rows="10" required value={longDescription} onChange={(e) => setLongDescription(e.target.value)}></textarea></div>
+                        <div className="longDescription">
+                            <label htmlFor="longDescription">Long Description</label>
+                            <textarea name="longDescription" cols="30" rows="10" required value={longDescription} onChange={(e) => setLongDescription(e.target.value)}></textarea></div>
+                    </div>
 
-                    <div className="thumbnailUrl"><input type="text" required value={thumbnailUrl} onChange={(e) => setThumbnailUrl(e.target.value)} /></div>
+                    <div className="thumbnailUrl"><input type="text" required value={thumbnailUrl} onChange={(e) => setThumbnailUrl(e.target.value)} placeholder='Image Url' /></div>
 
-                    <button>Add Book</button>
+                    <button className="btn002">Add Book</button>
                 </form>
             </div>
         </div>

@@ -7,7 +7,7 @@ const UserLogin = () => {
 
 
 
-    let navigate = useNavigate
+    let navigate = useNavigate()
 
     let login = () => {
         navigate('/user/')
@@ -15,7 +15,7 @@ const UserLogin = () => {
 
     return (
         <div className="userLogin">
-            <div className="form">
+            <div className="form001">
                 <h2>User Login</h2>
             </div>
             <div className="formInput">

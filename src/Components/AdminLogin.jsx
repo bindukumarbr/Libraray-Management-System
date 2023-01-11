@@ -27,10 +27,8 @@ const AdminLogin = () => {
     }
     return (
         <div className="adminLogin">
-            <div className="form">
-                <h2>Admin Login</h2>
-            </div>
             <div className="formInput">
+                <h2>Admin Login</h2> <br />
                 <form onSubmit={login}>
                     <div className="email">
                         <label htmlFor="email">Email</label><br />
@@ -56,6 +54,9 @@ const AdminLogin = () => {
                     </div>
                     <button className="btn">Login</button>
                 </form>
+            </div>
+            <div className="image">
+                <img src="https://thumbs.dreamstime.com/b/admin-office-binder-wooden-desk-table-colored-pencil-pencils-pen-notebook-paper-79046621.jpg" alt="" />
             </div>
         </div>
     );

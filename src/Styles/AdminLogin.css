@@ -7,22 +7,20 @@
 }
 
 .adminLogin {
-    background-color: lightgrey;
+    background-color: rgb(224, 248, 236);
     width: 400px;
-    height: 300px;
-    border-radius: 10px;
-    position: absolute;
-    top: 30%;
-    left: 36%;
-    /* left: 300px; */
+    height: 100vh;
     text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
 }
 
-/* .formInput input {
-    margin: 10px;
-    padding: 5px;
-    width: 300px;
-} */
+.image img {
+    height: 100vh;
+    margin-left: 50px;
+}
+
 
 .formInput input:focus {
     outline: none;

@@ -32,8 +32,8 @@ const UsersList = () => {
 
     return (
         <div className="parent">
-            <h1 className="hello">Users list</h1>
-            <h2 className="hello">User nos : {user.length}</h2>
+            <h1>Users list</h1>
+            <h2>User nos : {user.length}</h2>
 
             {
                 user.map((data) => (

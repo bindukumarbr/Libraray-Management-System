@@ -1,0 +1,43 @@
+.userForm {
+    background: linear-gradient(109.6deg, rgb(204, 228, 247) 11.2%, rgb(237, 246, 250) 100.2%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formUser {
+    background-color: #bcc0d6;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.formUser input,
+.btnUser {
+    margin: 10px;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+.nameUser {
+    display: inline-flex;
+}
+
+.imageUser img {
+    width: 600px;
+}
+
+.userHeading {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.btnUser {
+    background-color: #a6e8e8;
+    padding: 10px 30px;
+}
